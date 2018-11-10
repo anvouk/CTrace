@@ -24,7 +24,7 @@ void important_function(void)
   /* ... does stuff ... */
   
   if (/* condition */) {
-    /* An has error occured. Log it and return. */
+    /* An error has occured. Log it and return. */
     CTRACEE("oops! %d - %s", some_number, some_string);
     CTRACE_EXIT_FN();
     return;
@@ -47,7 +47,7 @@ void important_function(void)
   /* ... does stuff ... */
   
   if (/* condition */) {
-    /* An has error occured. Log it and return. */
+    /* An error has occured. Log it and return. */
     CWTRACEE(TEXT("oops! %d - %s"), some_number, some_wide_string);
     CWTRACE_EXIT_FN();
     return;
