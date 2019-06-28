@@ -1,3 +1,5 @@
+***DEPRECATED:*** improved version available [here](https://github.com/QwertyQaz414/anv)
+
 # CTrace
 
 C/C++ logging library.
